@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audit Tool</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Windows 11 CIS Audit Tool</h1>
+    
+    <p>Running on: <span id="osType">{{ os_type }}</span></p>
+    
+    <button id="runAuditBtn">Run Windows 11 Audit</button>
+    <pre id="result"></pre>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

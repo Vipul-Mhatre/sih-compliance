@@ -1,0 +1,5 @@
+{
+    "updateService": "Warning: Windows Update service is not running.",
+    "defender": "Windows Defender Antivirus is running.",
+    "completion": "Audit completed."
+}
